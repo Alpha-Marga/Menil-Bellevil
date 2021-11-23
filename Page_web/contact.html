@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>aeronmen design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <section class="toppage"></section>
+    <header class="header">
+      <img src="images/logo.png" alt="Logo du site" class="logo">
+        <nav class="nav">
+          <li><a href=index.html>Accueil</a></li>
+          <li><a href=artiste.html>Artiste</a></li>
+          <li><a href=portofolio.html>Portofolio</a></li>
+          <li><a href=contact.html>Contact</a></li>
+        </nav>
+    </header>
+  </section>
+
+<div id="formulaire">
+  <form action="envoiform.html" method="POST">
+    <div class="utilisateur"></div>
+    <h1>Contacte moi !</h1>
+    <p>Des rensignements, un projets, des idées ?</p>
+     <section class="prenom">
+       <label for="prenom">Prénom :</label>
+      <input type="text" name="prenom" id="prenom">
+     </section>
+
+     <section class="nom">
+       <label for="nom">Nom :</label>
+      <input type="text" name="nom" id="nom">
+     </section>
+
+     <section class="email">
+       <label for="email">E-mail :</label>
+       <input type="text" name="email" id="email">
+     </section>
+
+      <section class="info">
+        <label for="info">Votre projet, idées, renseignement :</label>
+        <br>
+        <textarea id="info" name="info" rows="3" cols="40"></textarea>
+      </section>
+
+      <section class="contact">
+        <span>Avez vous déjà utilisé des logiciels de design ?</span>
+        <br>
+        <input type="radio" name="contact" id="yes" value="yes">
+        <label for="yes">Yes</label>
+        <input type="radio" name="contact" id="no" value="no">
+        <label for="no">No</label>
+      </section>
+         <section class="logiciels">
+          <span>Si oui, lesquel(s) ?</span>
+          <br>
+          <input type="checkbox" name="logiciels" id="photoshop" value="photoshop">
+          <label for="photoshop">Photoshop</label>
+          <input type="checkbox" name="logiciels" id="illustrator" value="illustrator">
+          <label for="illustator">Illustator</label>
+          <input type="checkbox" name="logiciels" id="cinema4d" value="cinema4d">
+          <label for="cinema4d">Cinema 4D</label>
+        </section>
+
+      <section class="submission">
+      <input type="submit" value="envoyer">
+      </section>
+    </div>
+  </form>
+  </div>
+
+<footer class="footer">
+  <table>
+    <tr><td><a href="https://www.twitter.com/fr/"> <img src="images/twitterlogo.png"/></a></td>
+    <td><a href="https://www.instagram.com/fr/"><img src="images/instalogo.png" /></a></td>
+    <td><a href="https://www.youtube.com/fr/"><img src="images/youtubelogo.png" /></a></td></tr>
+  </table>
+</footer>
+
+  </body>
+</html>

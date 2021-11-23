@@ -1,0 +1,307 @@
+
+
+body
+{
+	 background-color:#151515;
+	 color: white;
+}
+
+
+/* Mise en forme de l'en-tête */
+header
+ {
+	 text-align: center;
+	 text-shadow: 2px 2px 2px black, -2px -2px 2px black;
+	 color : #F2F4F4;
+	 font-size: 35px;
+	 font-family: "ravie", serif;
+	 font-weight: normal;
+	 text-align: center;
+ }
+
+
+
+/* Mise en forme des noms de lieux */
+h2
+ {
+	 font-size: 40px;
+	 color:white;
+	 font-family: "rockwell", serif;
+	 padding-left: 50px;
+ } 
+
+
+/* Mise en forme des élements de menus de navigation avec les images */
+ h3
+ {
+	 font-size: 28px;
+	 color: white;
+	 font-family: "rockwell", serif;
+	 font-weight: normal;
+	 text-overflow: hidden;
+}
+
+h3:hover {
+	color: orange;
+}
+
+
+/* Mise en forme contenu texte */
+ h4
+ {
+	  font-size: 17px;
+	  padding-left: 50px;
+	  padding-right: 50px;
+	  font-family: "arial", serif;
+	  font-weight: normal;
+	  color: #C6D4D2;
+ }
+
+
+/* Mise en forme des cordonnées des lieux */
+h6 
+{
+	font-size: 15px;
+	color:white;
+	padding-left: 50px;
+	padding-right: 100px;
+	font-family: "arial", serif;
+	font-weight: normal;
+	font-style : italic;
+	transition: .3s;
+}
+
+ h6 a:hover{
+ 	text-decoration: underline;
+
+ }
+
+a
+{
+	text-decoration: none;
+}
+
+
+/* Mise en forme bouton d'accueil au pied de page */
+footer
+{
+ 	padding-right: 20;
+ 	text-align: right;
+ 	padding-bottom: 10px;
+}
+
+
+footer img
+{
+	width: 50;
+	height: 50;
+	border-radius: 50%;
+}
+
+img 
+{
+	width: 350px; 
+	height: 245px;
+	border-radius: 50%; 
+	transition: 0.4s ; 
+}
+
+
+/* Mise en forme de la barre de navigation */
+.nav 
+{
+	padding:5px;
+    margin: 0;
+	text-align: right;
+	font-family: "calibri", serif;
+	background-color: #555555;
+	font-weight: normal;
+	overflow: hidden;
+
+}
+
+.nav li 
+{
+	display: inline;
+}
+
+.nav a
+{
+	padding: 10;
+}
+
+.nav li a:hover 
+{
+	background-color: #151515;
+}
+
+
+/* Mise en forme du tableau pour le menu de navigation avec image dans la page d'accueil */
+
+.tabl_accueil 
+{
+	width: 100%;
+	padding-left: 100;
+}
+
+.tabl_accueil img 
+{
+	width: 350px; 
+	height: 245px;
+	border-radius: 50%; 
+	transition: 0.4s ; 
+}
+
+.tabl_accueil img:hover
+ {
+ 	border-radius: 10%; 
+   transform: scale(1.2);
+}
+
+
+/* Mise en forme du tableau pour le menu de navigation avec image dans la page "Restaurant" */
+
+.tabl_resto 
+{
+	width: 100%;
+	padding-left: 100;
+}
+
+.tabl_resto img
+{
+	width: 260; 
+	height: 200;
+	border-radius: 50%; 
+	transition: 0.4s; 
+}
+
+.tabl_resto img:hover 
+{
+  border-radius: 10%; 
+  transform: scale(1.2);
+}
+
+/* Mise en forme de tableaux pour la disposition entre la description des lieux et leurs images */
+
+.tabl_lieu 
+{
+	width: 100%;
+   	padding-left: 50;
+   	padding-right: 100;
+
+}
+
+.tabl_lieu img 
+{
+	width: 450; 
+	height: 280;
+	transition: 0.4s;
+	border-radius: 5%;
+}
+
+.tabl_lieu img:hover
+{
+	 transform: scale(1.3);
+}
+
+
+/* Mise en forme de tableaux pour la disposition entre les cordonnées des lieux et les tableaux horaires */
+
+.tabl_lieu2 
+{
+	width: 100%;
+   	padding-left: 50;
+   	padding-right: 47%;
+	
+}
+
+
+/* Mise en forme des tableaux d'horaires */
+
+.tabl_horaire
+{
+   border:1px solid #151515;
+   text-align: center;
+   font-style : italic;
+}
+
+.tabl_horaire td{
+	
+	border:1px solid #151515;
+	background-color: #626464;
+}
+
+
+/* Mise en forme de tableaux pour la disposition des cordonnées d'hôtels */
+
+.tabl_hotel 
+{
+	width: 100%;
+   	padding-left: 50;
+   	padding-right: 35%;
+}
+
+/* Mise en forme de tableaux pour la disposition des formulaires "Enquête" */
+
+.tabl_formu 
+{
+	color: black;
+	width: 100%;
+	padding-left: 100;
+}
+
+.tabl_formu 
+{
+	color: black;
+	width: 100%;
+	padding-left: 80;
+}
+
+
+/* Les lignes qui suivent concernes la mise en forme et le design des formulaires */
+
+legend
+{
+    background-color: grey;
+    color: white ;
+    font-weight:bold;
+    padding: 4px;
+    text-align: center;
+    width: 100%;
+}
+
+input 
+{
+  margin-left: 10px;
+}
+
+textarea
+{
+  margin-left: 10px;
+}
+
+
+form
+{
+	color: black;
+	padding:10px;
+}
+
+label
+{
+	margin-left: 15px;
+	font-weight:bold;
+	width: 100px;
+	
+}
+
+fieldset {
+		background-color:orange;
+}
+
+
+
+
+
+
+ 
